@@ -1,0 +1,15 @@
+
+title: "Rana's Study Notes"
+
+description: >-
+  A personal educational website containing study notes,
+  learning resources, and academic materials for students.
+
+baseurl: ""
+url: ""
+
+# Build settings
+theme: minima
+
+plugins:
+  - jekyll-feed
