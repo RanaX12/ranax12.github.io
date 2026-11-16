@@ -8,8 +8,5 @@ description: >-
 baseurl: ""
 url: "https://ranax12.github.io"
 
-# Build settings
-theme: minima
-
 plugins:
   - jekyll-feed

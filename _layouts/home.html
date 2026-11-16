@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="dashboard-hero">
+
+  <div class="hero-content">
+    <span class="hero-label">WELCOME TO YOUR LEARNING SPACE</span>
+
+    <h1>Learn. Explore. Grow.</h1>
+
+    <p>
+      Welcome to Rana's Study Notes.
+      Explore study notes, learning resources and academic materials
+      to make your learning journey easier.
+    </p>
+
+    <a href="{{ '/classes/' | relative_url }}" class="hero-button">
+      Explore Classes →
+    </a>
+  </div>
+
+  <div class="hero-decoration">
+    <span>📚</span>
+  </div>
+
+</section>
+
+<!-- Quick Access -->
+<section class="dashboard-section">
+
+  <div class="section-heading">
+    <div>
+      <h2>Explore Your Learning Space</h2>
+      <p>Find the resources you need to study.</p>
+    </div>
+  </div>
+
+  <div class="dashboard-grid">
+
+    <a href="{{ '/classes/' | relative_url }}" class="dashboard-card">
+      <span class="card-icon">🎓</span>
+      <h3>Classes</h3>
+      <p>Explore study materials by class.</p>
+      <span class="card-link">Explore →</span>
+    </a>
+
+    <a href="{{ '/search/' | relative_url }}" class="dashboard-card">
+      <span class="card-icon">🔍</span>
+      <h3>Search</h3>
+      <p>Find notes and learning resources.</p>
+      <span class="card-link">Search Now →</span>
+    </a>
+
+    <a href="{{ '/recent/' | relative_url }}" class="dashboard-card">
+      <span class="card-icon">🕒</span>
+      <h3>Recent Content</h3>
+      <p>Discover the latest published materials.</p>
+      <span class="card-link">View Recent →</span>
+    </a>
+
+    <a href="{{ '/about/' | relative_url }}" class="dashboard-card">
+      <span class="card-icon">📖</span>
+      <h3>About</h3>
+      <p>Learn more about this study website.</p>
+      <span class="card-link">Learn More →</span>
+    </a>
+
+  </div>
+
+</section>
+
+<!-- Recent Posts -->
+<section class="dashboard-section">
+
+  <div class="section-heading">
+    <div>
+      <h2>Latest Study Materials</h2>
+      <p>Recently published content.</p>
+    </div>
+  </div>
+
+  <div class="recent-content">
+
+    {% assign recent_posts = site.posts | slice: 0, 5 %}
+
+    {% if recent_posts.size > 0 %}
+
+      {% for post in recent_posts %}
+
+        <article class="recent-item">
+
+          <div class="recent-icon">📝</div>
+
+          <div class="recent-info">
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            <p>
+              {{ post.date | date: "%d %B %Y" }}
+            </p>
+          </div>
+
+          <a href="{{ post.url | relative_url }}" class="read-link">
+            Read →
+          </a>
+
+        </article>
+
+      {% endfor %}
+
+    {% else %}
+
+      <p class="empty-message">
+        No study materials published yet. New content will appear here.
+      </p>
+
+    {% endif %}
+
+  </div>
+
+</section>
