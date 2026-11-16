@@ -6,7 +6,7 @@ description: >-
   learning resources, and academic materials for students.
 
 baseurl: ""
-url: ""
+url: "https://ranax12.github.io"
 
 # Build settings
 theme: minima
