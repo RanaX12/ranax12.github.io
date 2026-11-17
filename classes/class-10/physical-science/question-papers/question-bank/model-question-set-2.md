@@ -6,15 +6,18 @@ date: 2026-11-17
 class: 10
 subject: physical-science
 content_type: question-paper
+paper_type: model-paper
 source: question-bank
 medium: bengali
 duration: "3 ঘণ্টা 15 মিনিট"
 total_marks: 90
+paper_number: 2
 published: true
 tags:
   - Class-10
   - Physical-Science
   - Question-Paper
+
 permalink: /classes/class-10/physical-science/question-papers/question-bank/model-question-set-2/
 ---
 

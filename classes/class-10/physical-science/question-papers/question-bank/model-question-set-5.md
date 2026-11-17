@@ -1,22 +1,24 @@
 ---
 layout: default
-title: মাধ্যমিক ভৌতবিজ্ঞান মডেল প্রশ্ন সেট 5
+title: "মাধ্যমিক ভৌতবিজ্ঞান মডেল প্রশ্ন সেট 5"
 date: 2026-11-17
 class: 10
 subject: physical-science
 content_type: question-paper
+source: question-bank
 paper_type: model-paper
 medium: bengali
-duration: 3 ঘণ্টা 15 মিনিট
+duration: "3 ঘণ্টা 15 মিনিট"
 total_marks: 90
 paper_number: 5
-published: false
+published: true
 tags:
   - Class-10
   - Physical-Science
   - Model-Paper
-permalink: /classes/class-10/physical-science/question-papers/model-papers/model-question-set-5/
+permalink: /classes/class-10/physical-science/question-papers/question-bank/model-question-set-5/
 ---
+
 ### Section A: Multiple Choice Questions
 **1. বিকল্পগুলি থেকে সঠিক উত্তরটি নির্বাচন করে লেখো:** $1 \times 15 = 15$
 

@@ -1,13 +1,14 @@
 ---
 layout: default
 
-title: "মাধ্যমিক ভৌতবিজ্ঞান মডেল প্রশ্ন সেট ১"
+title: "মাধ্যমিক ভৌতবিজ্ঞান মডেল প্রশ্ন সেট 1"
 date: 2026-10-26
 
 class: 10
 subject: physical-science
 content_type: question-paper
 paper_type: model-paper
+source: question-bank
 
 medium: bengali
 duration: "3 ঘণ্টা 15 মিনিট"

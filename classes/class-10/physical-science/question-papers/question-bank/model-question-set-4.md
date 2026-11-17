@@ -5,19 +5,20 @@ date: 2026-11-17
 class: 10
 subject: physical-science
 content_type: question-paper
+source: question-bank
 paper_type: model-paper
 medium: bengali
 duration: "3 ঘণ্টা 15 মিনিট"
 total_marks: 90
 paper_number: 4
-published: false
+published: true
 tags:
-    - Class-10
-    - Physical-Science
-    - Model-Paper
-permalink: /classes/class-10/physical-science/question-papers/model-papers/model-question-set-4/
-
+  - Class-10
+  - Physical-Science
+  - Model-Paper
+permalink: /classes/class-10/physical-science/question-papers/question-bank/model-question-set-4/
 ---
+
 ## Group A
 ### 1. বিকল্পগুলির থেকে সঠিক উত্তরটি নির্বাচন করে লেখো: (1 × 15 = 15)
 1.1 বায়ুমণ্ডলের কোন স্তর জলচক্র ও উচ্চতা নিয়ন্ত্রণ করে?

@@ -2,22 +2,28 @@
 layout: default
 title: "মাধ্যমিক ভৌতবিজ্ঞান মডেল প্রশ্ন সেট 3"
 date: 2026-11-17
+
 class: 10
 subject: physical-science
 content_type: question-paper
+source: question-bank
 paper_type: model-paper
+
 medium: bengali
 duration: "3 ঘণ্টা 15 মিনিট"
 total_marks: 90
-paper_number: 3
-published: false
-tags:
-    - Class-10
-    - Physical-Science
-    - Model-Paper
-permalink: /classes/class-10/physical-science/question-papers/model-papers/model-question-set-3/
 
+paper_number: 3
+published: true
+
+tags:
+  - Class-10
+  - Physical-Science
+  - Model-Paper
+
+permalink: /classes/class-10/physical-science/question-papers/question-bank/model-question-set-3/
 ---
+
 ### Section A: Multiple Choice Questions
 **বিকল্পগুলি থেকে সঠিক উত্তরটি নির্বাচন করে লেখো**
 
